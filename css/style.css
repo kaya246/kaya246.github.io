@@ -203,7 +203,7 @@ a	{
 }
 
 @media screen and (max-width: 900px) {
-  .portraititemsquare, .portraititemsquarefirst, .aboutitem {
+  .portraititemsquare, .portraititemsquarefirst, .aboutitem, .aboutitemfirst {
   max-width: 100%;
     }}
 
