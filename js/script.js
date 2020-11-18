@@ -387,13 +387,13 @@ walmart
 function check3in(x) {
 document.getElementById("biocard").innerHTML = "drawing";
 }
-function chick3out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+function check3out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
 }
 
 function check8in(x) {
 document.getElementById("biocard").innerHTML = "pooping";
 }
-function chick8out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+function check8out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
 }
 
 function check1in(x) {
