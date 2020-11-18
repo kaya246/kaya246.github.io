@@ -379,3 +379,31 @@ document.getElementById("titlecard").innerHTML = "drawing";
 function quatreout(x) {
 document.getElementById("titlecard").innerHTML = "me";
 }
+
+
+
+walmart
+
+function chick3in(x) {
+document.getElementById("biocard").innerHTML = "drawing";
+}
+function chick3out(x) {
+document.getElementById("biocard").innerHTML = 
+"Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+}
+
+function chick8in(x) {
+document.getElementById("biocard").innerHTML = "pooping";
+}
+function chick8out(x) {
+document.getElementById("biocard").innerHTML = 
+"Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+}
+
+function chick1in(x) {
+document.getElementById("biocard").innerHTML = "eating";
+}
+function chick1out(x) {
+document.getElementById("biocard").innerHTML = 
+"Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+}
