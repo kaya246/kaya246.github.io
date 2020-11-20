@@ -401,3 +401,13 @@ document.getElementById("biocard").innerHTML = "eating";
 }
 function chick1out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
 }
+
+
+boathouse
+
+function b1in(x) {
+  document.getElementById("biocard").innerHTML = "drawing";
+  }
+  function b1out(x) {document.getElementById("biocard").innerHTML = "An unlimited budget waterfront proposal that embodies the casual day trip";
+  }
+  

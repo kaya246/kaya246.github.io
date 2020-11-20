@@ -177,7 +177,7 @@ a	{
 }
 
 
-.portraititemsquare {
+.portraititemsquare, .portraititemvert {
   position: relative;
   max-width: 50%;
   padding-bottom: 20px;
@@ -205,13 +205,15 @@ a	{
 
 @media screen and (max-width: 900px) {
   .portraititemsquare, .portraititemsquarefirst, .aboutitem, .aboutitemfirst {
-  max-width: 100%;
-    }}
+  max-width: 100%;}}
 
 @media screen and (max-width: 900px) {
-  .portraititemsquare, .aboutitem {
-  padding-top: 0px;; }}
+  .portraititemsquare, .aboutitem, .portraititemvert {
+  padding-top: 0px;;}}
 
+@media screen and (max-width: 720px) {
+ .portraititemvert {
+  max-width: 100%;}}
 
 .portraititemfirst {
   z-index: -10;
