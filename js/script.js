@@ -406,8 +406,20 @@ function chick1out(x) {document.getElementById("biocard").innerHTML = "Walmart t
 boathouse
 
 function b1in(x) {
-  document.getElementById("biocard").innerHTML = "drawing";
-  }
-  function b1out(x) {document.getElementById("biocard").innerHTML = "An unlimited budget waterfront proposal that embodies the casual day trip";
-  }
+document.getElementById("biocard").innerHTML = "drawing";
+}
+function b1out(x) {document.getElementById("biocard").innerHTML = "An unlimited budget waterfront proposal that embodies the casual day trip";
+}
+
+
+
+
+ark
+
+function ark6in(x) {
+document.getElementById("biocard").innerHTML = "The base of the model was filled with pepto bismo as it has a vibrant pink color and the perfect consistency for models to float around but not fall over";
+}
+function ark6out(x) {document.getElementById("biocard").innerHTML = 
+"This was a project done during my internship at So-il Architects for an exhibition at the storefront for art + architecture";
+}
   
