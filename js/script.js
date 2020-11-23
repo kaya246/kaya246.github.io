@@ -384,31 +384,85 @@ document.getElementById("titlecard").innerHTML = "me";
 
 walmart
 
-function check3in(x) {
-document.getElementById("biocard").innerHTML = "drawing";
+function chick8in(x) {
+document.getElementById("biocard").innerHTML = "slot 1";
 }
-function check3out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
-}
-
-function check8in(x) {
-document.getElementById("biocard").innerHTML = "pooping";
-}
-function check8out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+function chick8out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
 }
 
-function check1in(x) {
-document.getElementById("biocard").innerHTML = "eating";
+function chick1in(x) {
+document.getElementById("biocard").innerHTML = "slot 2";
 }
 function chick1out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+}
+
+function chick2in(x) {
+document.getElementById("biocard").innerHTML = "slot 3";
+}
+function chick2out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+}
+
+function chick11in(x) {
+document.getElementById("biocard").innerHTML = "slot 4";
+}
+function chick11out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+}
+
+function chick7in(x) {
+document.getElementById("biocard").innerHTML = "slot 5";
+}
+function chick7out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+}
+
+function chick5in(x) {
+document.getElementById("biocard").innerHTML = "slot 6";
+}
+function chick5out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+}
+
+function chick4in(x) {
+document.getElementById("biocard").innerHTML = "slot 7";
+}
+function chick4out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
 }
 
 
 boathouse
 
 function b1in(x) {
-document.getElementById("biocard").innerHTML = "drawing";
+document.getElementById("biocard").innerHTML = "slot 1";
 }
 function b1out(x) {document.getElementById("biocard").innerHTML = "An unlimited budget waterfront proposal that embodies the casual day trip";
+}
+
+function L1in(x) {
+document.getElementById("biocard").innerHTML = "slot 2";
+}
+function L1out(x) {document.getElementById("biocard").innerHTML = "An unlimited budget waterfront proposal that embodies the casual day trip";
+}
+
+function b2in(x) {
+document.getElementById("biocard").innerHTML = "slot 3";
+}
+function b2out(x) {document.getElementById("biocard").innerHTML = "An unlimited budget waterfront proposal that embodies the casual day trip";
+}
+
+function L3in(x) {
+document.getElementById("biocard").innerHTML = "slot 4";
+}
+function L3out(x) {document.getElementById("biocard").innerHTML = "An unlimited budget waterfront proposal that embodies the casual day trip";
+}
+
+function b3in(x) {
+document.getElementById("biocard").innerHTML = "slot 5";
+}
+function b3out(x) {document.getElementById("biocard").innerHTML = "An unlimited budget waterfront proposal that embodies the casual day trip";
+}
+
+function L4in(x) {
+document.getElementById("biocard").innerHTML = "slot 6";
+}
+function L4out(x) {document.getElementById("biocard").innerHTML = "An unlimited budget waterfront proposal that embodies the casual day trip";
 }
 
 
