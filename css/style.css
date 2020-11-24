@@ -261,9 +261,9 @@ padding-right: 10px;
 flex: 100%;
 max-width: 100%; }
 
-.menubar {padding-left: 173px; }
+.menubar {padding-left: 173px; font-size: 14pt; padding-top: 32px;}
 
-.kayaramirez {width: 150px; font-size: 17pt; top: 32px; text-align: left; padding-left: 16px;}
+.kayaramirez {width: 150px; font-size: 16pt; top: 32px; text-align: left; padding-left: 16px;}
 .back {display: none;}
 .portraititem, .portraititemfirst, .portraititemsquare, .portraititemsquarefirst, .portraititemvert {padding: 6px;}
 
