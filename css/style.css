@@ -249,7 +249,7 @@ a	{
 
 
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 463px) {
 .sidetitle,.sidebio,.sidedate,.footer {display: none;}
 
 .grid, .objectgrid {
