@@ -6,7 +6,7 @@ function architectur(x) {
   }
 }
 
-var x = window.matchMedia("(max-width: 549px)")
+var x = window.matchMedia("(max-width: 666px)")
 architectur(x) // Call listener function at run time
 x.addListener(architectur) // Attach listener function on state changes
 
@@ -18,7 +18,7 @@ x.addListener(architectur) // Attach listener function on state changes
       }
     }
 
-    var x = window.matchMedia("(max-width: 547px)")
+    var x = window.matchMedia("(max-width: 664px)")
     architectu(x) // Call listener function at run time
     x.addListener(architectu) // Attach listener function on state changes
 
@@ -30,7 +30,7 @@ x.addListener(architectur) // Attach listener function on state changes
           }
         }
 
-        var x = window.matchMedia("(max-width: 545px)")
+        var x = window.matchMedia("(max-width: 662px)")
         architect(x) // Call listener function at run time
         x.addListener(architect) // Attach listener function on state changes
 
@@ -42,7 +42,7 @@ x.addListener(architectur) // Attach listener function on state changes
               }
             }
 
-            var x = window.matchMedia("(max-width: 543px)")
+            var x = window.matchMedia("(max-width: 660px)")
             architec(x) // Call listener function at run time
             x.addListener(architec) // Attach listener function on state changes
 
@@ -54,7 +54,7 @@ x.addListener(architectur) // Attach listener function on state changes
                   }
                 }
 
-                var x = window.matchMedia("(max-width: 541px)")
+                var x = window.matchMedia("(max-width: 658px)")
                 archite(x) // Call listener function at run time
                 x.addListener(archite) // Attach listener function on state changes
 
@@ -66,7 +66,7 @@ x.addListener(architectur) // Attach listener function on state changes
                       }
                     }
 
-                    var x = window.matchMedia("(max-width: 539px)")
+                    var x = window.matchMedia("(max-width: 656px)")
                     archit(x) // Call listener function at run time
                     x.addListener(archit) // Attach listener function on state changes
 
@@ -78,7 +78,7 @@ x.addListener(architectur) // Attach listener function on state changes
                           }
                         }
 
-                        var x = window.matchMedia("(max-width: 537px)")
+                        var x = window.matchMedia("(max-width: 654px)")
                         archi(x) // Call listener function at run time
                         x.addListener(archi) // Attach listener function on state changes
 
@@ -90,7 +90,7 @@ x.addListener(architectur) // Attach listener function on state changes
                               }
                             }
 
-                            var x = window.matchMedia("(max-width: 535px)")
+                            var x = window.matchMedia("(max-width: 652px)")
                             arch(x) // Call listener function at run time
                             x.addListener(arch) // Attach listener function on state changes
 
@@ -470,10 +470,31 @@ function L4out(x) {document.getElementById("biocard").innerHTML = "An unlimited 
 
 ark
 
+function ark1in(x) {
+document.getElementById("biocard").innerHTML = "I carved over 100 foam blocks with 1000 buildings on a hot wire cutter; I might be the best foam cutter east of the Mississippi.";
+}
+function ark1out(x) {document.getElementById("biocard").innerHTML = 
+"A SO-IL exhibition at the Storefront for Art / Architecture. I worked alongside fellow intern Ryan Hernandez.";
+}
+
+function ark4in(x) {
+document.getElementById("biocard").innerHTML = "The liquid sea that has flooded lower Manhattan allows buildings and blocks to leisurely navigate their domain. In this untamed island, landmarks create junctions and boundaries, rather than avenues and intersections dictating what we deem important";
+}
+function ark4out(x) {document.getElementById("biocard").innerHTML = 
+"A SO-IL exhibition at the Storefront for Art / Architecture. I worked alongside fellow intern Ryan Hernandez.";
+}
+
+function ark3in(x) {
+document.getElementById("biocard").innerHTML = "The base of the model was filled with pepto bismo as it has a vibrant pink color and the perfect consistency for models to float around but not fall over";
+}
+function ark3out(x) {document.getElementById("biocard").innerHTML = 
+"A SO-IL exhibition at the Storefront for Art / Architecture. I worked alongside fellow intern Ryan Hernandez.";
+}
+
 function ark6in(x) {
 document.getElementById("biocard").innerHTML = "The base of the model was filled with pepto bismo as it has a vibrant pink color and the perfect consistency for models to float around but not fall over";
 }
 function ark6out(x) {document.getElementById("biocard").innerHTML = 
-"This was a project done during my internship at So-il Architects for an exhibition at the storefront for art + architecture";
+"A SO-IL exhibition at the Storefront for Art / Architecture. I worked alongside fellow intern Ryan Hernandez.";
 }
   
