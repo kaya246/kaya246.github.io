@@ -259,6 +259,16 @@ document.getElementById("titlecard").innerHTML = "Some Projects";
 document.getElementById("datecard").innerHTML = "c. 2020";
   }  
 
+function elevenin(x) {
+document.getElementById("titlecard").innerHTML = "Fallingwater";
+document.getElementById("datecard").innerHTML = "Spring 2017";
+  }
+
+function elevenout(x) {
+document.getElementById("titlecard").innerHTML = "Some Projects";
+document.getElementById("datecard").innerHTML = "c. 2020";
+  }  
+    
 
 
   
