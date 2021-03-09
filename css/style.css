@@ -296,7 +296,7 @@ max-width: 100%;
 }}
 
 @media screen and (max-width: 560px) {
-  .sidetitle,.sidebio,.sidedate,.footer, .kayaramirez {max-width: 50%;}
+  .sidetitle,.sidebio,.sidedate,.footer, .kayaramirez,.back {max-width: 50%;}
   .objectgrid, .grid {padding-left: 53.5%;}
   .menubar {padding-left: 54.5%;}
 }
