@@ -394,46 +394,35 @@ document.getElementById("titlecard").innerHTML = "me";
 
 walmart
 
-function chick8in(x) {
-document.getElementById("biocard").innerHTML = "slot 1";
-}
-function chick8out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
-}
 
 function chick1in(x) {
-document.getElementById("biocard").innerHTML = "slot 2";
+document.getElementById("biocard").innerHTML = "Walmart treats architecture as an operating cost. Their stores are “designed” to fit as much stuff as possible, for as cheap as possible. Each one of their 4,789 big-box stores redistributes $25 million in sales from local businesses, and decreases salaries in the area by over $600,000. These figures hit especially hard in low-income areas such as North-East Houston, home to SuperCenter #4526. Despite idealistic marketing campaigns that promise bringing local, sustainable goods into poor communities, they rarely source goods locally, and instead rely on a select few corporate farms, causing their produce to travel an average of 1500 miles before making its way onto a dinner plate.";
 }
-function chick1out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+function chick1out(x) {document.getElementById("biocard").innerHTML = "Walmart neglects the social and environmental consequences of their big-box stores, on the false promise that lower prices make us live better.  Walmart #4526 in Houston, TX should be decommissioned into a co-operated chicken farm that creates economic opportunities for local businesses and incentivizes sustainable agriculture.";
 }
 
 function chick2in(x) {
-document.getElementById("biocard").innerHTML = "slot 3";
+document.getElementById("biocard").innerHTML = "For the well-being of both north-east Houston and the overarching environment, I proposed a decommission of Walmart SuperCenter #4526 by virtue of poultry intervention.  When broods of chicken enter the big-box, thousands of commercial goods are made obsolete as shelves become nesting boxes and storage rooms begin to house poultry processing. Chicken netting drapes over exposed sections of the store into the vast parking lot, creating a unified, 12-acre free-range.";
 }
-function chick2out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+function chick2out(x) {document.getElementById("biocard").innerHTML = "Walmart neglects the social and environmental consequences of their big-box stores, on the false promise that lower prices make us live better.  Walmart #4526 in Houston, TX should be decommissioned into a co-operated chicken farm that creates economic opportunities for local businesses and incentivizes sustainable agriculture.";
 }
 
 function chick11in(x) {
-document.getElementById("biocard").innerHTML = "slot 4";
+document.getElementById("biocard").innerHTML = "At the end of its transition, the big box has become a Chicken Co-op that serves the countless taquerias, restaurants, and grocers in the area. By providing shared assets and methods of concentrated farming, the Co-op reduces entry barriers for beginning farmers and eliminates the geographic constraints set by the slow moving meat industry.";
 }
-function chick11out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+function chick11out(x) {document.getElementById("biocard").innerHTML = "Walmart neglects the social and environmental consequences of their big-box stores, on the false promise that lower prices make us live better.  Walmart #4526 in Houston, TX should be decommissioned into a co-operated chicken farm that creates economic opportunities for local businesses and incentivizes sustainable agriculture.";
 }
 
 function chick7in(x) {
-document.getElementById("biocard").innerHTML = "slot 5";
+document.getElementById("biocard").innerHTML = "This big-box reuse functions around the chicken’s natural cycle of converting trash into fertilizer that can produce more feed and support agricultural endeavors. When raised sustainably, chickens are extremely efficient at recycling their feed, and will compost up to 100lbs of food waste a year.  With the immense reduction in transportation needed to supply local consumers with the goods they need, our Co-op will emit just 3 pounds of C02 for every pound of food produced, about the same ratio as tofu.";
 }
-function chick7out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+function chick7out(x) {document.getElementById("biocard").innerHTML = "Walmart neglects the social and environmental consequences of their big-box stores, on the false promise that lower prices make us live better.  Walmart #4526 in Houston, TX should be decommissioned into a co-operated chicken farm that creates economic opportunities for local businesses and incentivizes sustainable agriculture.";
 }
 
 function chick5in(x) {
-document.getElementById("biocard").innerHTML = "slot 6";
+document.getElementById("biocard").innerHTML = "Unlike Walmart, which neglects their social and environmental consequences, the Chicken Co-op introduces sustainable practices that are geared towards and operated by local businesses. As shelves turn into coops and parking lots turn to pasture, the big box is no longer a machine of consumption and profit, but an agent for communal benefit.";
 }
-function chick5out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
-}
-
-function chick4in(x) {
-document.getElementById("biocard").innerHTML = "slot 7";
-}
-function chick4out(x) {document.getElementById("biocard").innerHTML = "Walmart treats architecture as an opportunity cost. This project transforms the big box into a communal chicken farm";
+function chick5out(x) {document.getElementById("biocard").innerHTML = "Walmart neglects the social and environmental consequences of their big-box stores, on the false promise that lower prices make us live better.  Walmart #4526 in Houston, TX should be decommissioned into a co-operated chicken farm that creates economic opportunities for local businesses and incentivizes sustainable agriculture.";
 }
 
 
