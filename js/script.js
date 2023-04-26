@@ -93,7 +93,7 @@ x.addListener(architectur) // Attach listener function on state changes
                             var x = window.matchMedia("(max-width: 652px)")
                             arch(x) // Call listener function at run time
                             x.addListener(arch) // Attach listener function on state changes
-
+                          
 
 function photograph(x) {
   if (x.matches) { // If media query matches
@@ -167,191 +167,113 @@ x.addListener(photograph) // Attach listener function on state changes
                     var x = window.matchMedia("(max-width: 610px)")
                     photos(x) // Call listener function at run time
                     x.addListener(photos) // Attach listener function on state changes
-
-
+-->
 
 function ninein(x) {
 document.getElementById("titlecard").innerHTML = "Big Box Decommission";
 document.getElementById("datecard").innerHTML = "Spring 2020";
   }
-
 function nineout(x) {
-document.getElementById("titlecard").innerHTML = "Some Projects";
-document.getElementById("datecard").innerHTML = "c. 2020";
+document.getElementById("titlecard").innerHTML = "";
+document.getElementById("datecard").innerHTML = "";
   }
-
-
-
 function threein(x) {
 document.getElementById("titlecard").innerHTML = "Casual Boathouse";
 document.getElementById("datecard").innerHTML = "Spring 2019";
   }
-
-function threeout(x) {
-document.getElementById("titlecard").innerHTML = "Some Projects";
-document.getElementById("datecard").innerHTML = "c. 2020";
-  }
-
-
 function sevenin(x) {
 document.getElementById("titlecard").innerHTML = "Manhattanisms";
 document.getElementById("datecard").innerHTML = "Summer 2016";
   }
-
-function sevenout(x) {
-document.getElementById("titlecard").innerHTML = "Some Projects";
-document.getElementById("datecard").innerHTML = "c. 2020";
-  }
-
-
 function fivein(x) {
 document.getElementById("titlecard").innerHTML = "Invisible Cities";
 document.getElementById("datecard").innerHTML = "Fall 2017";
   }
-
-function fiveout(x) {
-document.getElementById("titlecard").innerHTML = "Some Projects";
-document.getElementById("datecard").innerHTML = "c. 2020";
-  }
-
-
 function tenin(x) {
 document.getElementById("titlecard").innerHTML = "Salt Box";
 document.getElementById("datecard").innerHTML = "Fall 2019";
   }
-
-function tenout(x) {
-document.getElementById("titlecard").innerHTML = "Some Projects";
-document.getElementById("datecard").innerHTML = "c. 2020";
-  }
-
-
 function twoin(x) {
 document.getElementById("titlecard").innerHTML = "Transparency i";
 document.getElementById("datecard").innerHTML = "Fall 2018";
   }
-
-function twoout(x) {
-document.getElementById("titlecard").innerHTML = "Some Projects";
-document.getElementById("datecard").innerHTML = "c. 2020";
-  }  
-
-
-
 function fourin(x) {
 document.getElementById("titlecard").innerHTML = "Casa Gilardi";
 document.getElementById("datecard").innerHTML = "Fall 2017";
   }
-
-function fourout(x) {
-document.getElementById("titlecard").innerHTML = "Some Projects";
-document.getElementById("datecard").innerHTML = "c. 2020";
-  }  
-
-
 function sixin(x) {
 document.getElementById("titlecard").innerHTML = "Transparency ii";
 document.getElementById("datecard").innerHTML = "Fall 2018";
   }
-
-function sixout(x) {
-document.getElementById("titlecard").innerHTML = "Some Projects";
-document.getElementById("datecard").innerHTML = "c. 2020";
-  }  
-
 function elevenin(x) {
 document.getElementById("titlecard").innerHTML = "Fallingwater";
 document.getElementById("datecard").innerHTML = "Spring 2017";
   }
-
-function elevenout(x) {
-document.getElementById("titlecard").innerHTML = "Some Projects";
-document.getElementById("datecard").innerHTML = "c. 2020";
+function birdin(x) {
+document.getElementById("titlecard").innerHTML = "For the Birds";
+document.getElementById("datecard").innerHTML = "Summer 2022";
+  } 
+function ausin(x) {
+document.getElementById("titlecard").innerHTML = "SoHo Office with a Fake Bathroom";
+document.getElementById("datecard").innerHTML = "Under Construction";
+  }
+function gusin(x) {
+document.getElementById("titlecard").innerHTML = "Upper West Side Tiny House";
+document.getElementById("datecard").innerHTML = "Fall 2022";
+  }
+function pacificin(x) {
+document.getElementById("titlecard").innerHTML = "Brooklyn Heights Kitchen";
+document.getElementById("datecard").innerHTML = "Fall 2022";
+  }
+function eranin(x) {
+document.getElementById("titlecard").innerHTML = "Upper East Side Apartment";
+document.getElementById("datecard").innerHTML = "Summer 2022";
   }  
-    
-
-
+function clayin(x) {
+document.getElementById("titlecard").innerHTML = "Denver House";
+document.getElementById("datecard").innerHTML = "Under Construction";
+  }  
+function benin(x) {
+document.getElementById("titlecard").innerHTML = "Forest Hills House";
+document.getElementById("datecard").innerHTML = "Under Construction";
+  }  
   
 function unoin(x) {
-document.getElementById("titlecard").innerHTML = "Wavy";
-document.getElementById("datecard").innerHTML = "";
+document.getElementById("titlecard").innerHTML = "Sand Dunes";
+document.getElementById("datecard").innerHTML = "Summer 2018";
   }
-
-function unoout(x) {
-document.getElementById("titlecard").innerHTML = "Some Photos";
-document.getElementById("datecard").innerHTML = "";
-  }
-
 function dosin(x) {
-document.getElementById("titlecard").innerHTML = "Rocky";
-document.getElementById("datecard").innerHTML = "";
+document.getElementById("titlecard").innerHTML = "Mexico City";
+document.getElementById("datecard").innerHTML = "Winter 2022";
   }
-
-function dosout(x) {
-document.getElementById("titlecard").innerHTML = "Some Photos";
-document.getElementById("datecard").innerHTML = "";
-  }
-
 function tresin(x) {
-document.getElementById("titlecard").innerHTML = "Sandy";
-document.getElementById("datecard").innerHTML = "";
+document.getElementById("titlecard").innerHTML = "Highway 1";
+document.getElementById("datecard").innerHTML = "Spring 2022";
   }
-
-function tresout(x) {
-document.getElementById("titlecard").innerHTML = "Some Photos";
-document.getElementById("datecard").innerHTML = "";  
-  }
-
-function cuatroin(x) {
-document.getElementById("titlecard").innerHTML = "Grassy";
-document.getElementById("datecard").innerHTML = "";
-  }
-
-function cuatroout(x) {
-document.getElementById("titlecard").innerHTML = "Some Photos";
-document.getElementById("datecard").innerHTML = "";  
-  }
-
 function cincoin(x) {
-document.getElementById("titlecard").innerHTML = "Dark";
-document.getElementById("datecard").innerHTML = "";
+document.getElementById("titlecard").innerHTML = "Yosemite";
+document.getElementById("datecard").innerHTML = "Summer 2021";
   }
-
-function cincoout(x) {
-document.getElementById("titlecard").innerHTML = "Some Photos";
-document.getElementById("datecard").innerHTML = "";
+function cuatroin(x) {
+document.getElementById("titlecard").innerHTML = "Monte Rio";
+document.getElementById("datecard").innerHTML = "Spring 2022";
   }
-
 function seisin(x) {
-document.getElementById("titlecard").innerHTML = "Cloudy";
-document.getElementById("datecard").innerHTML = "";
+document.getElementById("titlecard").innerHTML = "New York City";
+document.getElementById("datecard").innerHTML = "Various Times";
   }
-
-function seisout(x) {
-document.getElementById("titlecard").innerHTML = "Some Photos";
-document.getElementById("datecard").innerHTML = "";
-  }
-
 function sietein(x) {
-document.getElementById("titlecard").innerHTML = "City";
-document.getElementById("datecard").innerHTML = "";
+document.getElementById("titlecard").innerHTML = "San Fransisco";
+document.getElementById("datecard").innerHTML = "Spring 2021";
   }
-
-function sieteout(x) {
-document.getElementById("titlecard").innerHTML = "Some Photos";
-document.getElementById("datecard").innerHTML = "";  
-  }
-
 function ochoin(x) {
-document.getElementById("titlecard").innerHTML = "Water";
-document.getElementById("datecard").innerHTML = "";
+document.getElementById("titlecard").innerHTML = "Rocky Mountains";
+document.getElementById("datecard").innerHTML = "Summer 2020";
   }
-
-function ochoout(x) {
-document.getElementById("titlecard").innerHTML = "Some Photos";
-document.getElementById("datecard").innerHTML = "";  
+function nuevein(x) {
+document.getElementById("titlecard").innerHTML = "Badlands";
+document.getElementById("datecard").innerHTML = "Summer 2020";
   }
-
 
 
 
@@ -359,19 +281,11 @@ document.getElementById("datecard").innerHTML = "";
 
 
 function unin(x) {
-document.getElementById("titlecard").innerHTML = "instagram";
-  }
-
-function unout(x) {
-document.getElementById("titlecard").innerHTML = "me";
+document.getElementById("titlecard").innerHTML = "Print Portfolio";
   }
 
 function deuxin(x) {
-document.getElementById("titlecard").innerHTML = "linkedin";
-  }
-
-function deuxout(x) {
-document.getElementById("titlecard").innerHTML = "me";
+document.getElementById("titlecard").innerHTML = "cv";
   }
 
 function troisin(x) {

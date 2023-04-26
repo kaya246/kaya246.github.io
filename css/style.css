@@ -1,4 +1,5 @@
 <style>
+
 html {
     /*    1rem = 16px*/
     font-size: 1rem;
@@ -16,16 +17,12 @@ html {
     opacity: 1;
   }
 
-a:hover {
-  opacity: .9;
-}
-
-
+.footer:hover {opacity: .9;}
+.notcurrentpage:hover {opacity: .9;}
+.kayaramirez:hover {opacity: .9;}
 
 body {
   margin: 0px;
-  background-color: white;
-  outline: black
 }
 
 a	{
@@ -33,58 +30,22 @@ a	{
   color: #6e6e5f;
 }
 
-.menubar {
+.fake {
   font-family: 'Playfair Display', serif;
   font-weight: 500;
   position: fixed;
-  width: 100%;
-  padding-left: 306px;
-  height: 65px;
-  padding-top: 30px;
-  background-color: white;
-  font-size: 20px;
-  z-index: 20;
-}
-
-.notcurrentpage {
-  opacity: .7;
-}
-
-.currentpage  {
-  opacity: 1;;
-}
-
-
-.footer {
-  font-family: 'Playfair Display', serif;
-  font-weight: 500;
-  position: fixed;
-  bottom: 20px;
+  top: 320px;
   left: 0px;
   width: 280px;
+  color: #6e6e5f;
   text-align: right;
-  line-height: 20px;
-  color: #6e6e5f;
-  font-size: 15px;
-}
-
-.sidebio {
-  font-family: 'Playfair Display', serif;
-  font-weight: 500;
-  position: fixed;
-  top: 220px;
-  left: 0px;
-  width: 280px;
-  color: #6e6e5f;
-  text-align: justify;
-  text-align-last: right;
   line-height: 22px;
-  font-size: 14px;
-  font-weight: 300;
-  padding-left: 25px;
+  font-size: 15px;
+  font-weight: bold;
     }
 
-.sidetitle {
+
+.sidetitlebar {
   font-family: 'Playfair Display', serif;
   font-weight: 500;
   position: fixed;
@@ -97,12 +58,101 @@ a	{
   font-size: 15px;
   font-weight: bold;
     }
+    
+.notcurrentpage {
+  opacity: .7;
+}
+
+.currentpage  {
+  opacity: 1;;
+}
+
+.mail {
+  padding-left: 20px;
+}
+.footer {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  position: fixed;
+  bottom: 24px;
+  left: 0px;
+  width: 280px;
+  text-align: right;
+  line-height: 20px;
+  color: #6e6e5f;
+  font-size: 25px;
+}
+
+.credit {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  padding-left: 7px;
+  width: 280px;
+  color: #6e6e5f;
+  text-align: left;
+  line-height: 22px;
+  font-size: 15px;
+  padding-bottom: 02px
+}
+
+.menubar {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  position: fixed;
+  width: 280px;
+  left: 0px;
+  padding-top: 130px;
+  color: #6e6e5f;
+  font-size: 20px;
+  z-index: 20;
+  line-height: 32px;
+  text-align: right;
+}
+
+.sidebio {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  position: fixed;
+  top: 420px;
+  left: 0px;
+  width: 280px;
+  color: #6e6e5f;
+  text-align: justify;
+  text-align-last: right;
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: 300;
+  padding-left: 25px;
+  animation: fadeIn 2s;
+    }
+
+.sidetitle {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  position: fixed;
+  top: 320px;
+  left: 0px;
+  width: 280px;
+  color: #6e6e5f;
+  text-align: right;
+  line-height: 22px;
+  font-size: 15px;
+  font-weight: bold;
+    }
+
+
+
+@keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+       
 
 .sidedate {
   font-family: 'Playfair Display', serif;
   font-weight: 500;
   position: fixed;
-  top: 140px;
+  top: 340px;
   left: 0px;
   width: 280px;
   color: #6e6e5f;
@@ -110,21 +160,6 @@ a	{
   line-height: 22px;
   font-size: 15px;
     }
-
-.back {
-  font-family: 'Playfair Display', serif;
-  font-weight: 500;
-  position: fixed;
-  top: 73px;
-  left: 0px;
-  width: 280px;
-  color: #6e6e5f;
-  text-align: right;
-  line-height: 22px;
-  font-size: 16px;
-  opacity: .7;
-    }
-.back:hover {opacity: 1;}
 
 .kayaramirez {
   font-family: 'Playfair Display', serif;
@@ -148,29 +183,37 @@ a	{
 .grid {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 300px;
-  padding-top: 70px;
-  padding-right: 0px;
+  padding-left: 296px;
+  padding-top: 27px;
+  padding-right: 10px;
   padding-bottom: 17px;
   z-index: -11;
+  animation: slideInFromBottom .29s, fadeIn .29s;
 }
+
+@keyframes slideInFromBottom {  0% {transform: translateY(100%);}  100% {transform: translateY(0);}}
+@keyframes slideInFromRight {  0% {transform: translateX(100%);}  100% {transform: translateX(0);}}
+@keyframes slideInFromTop {  0% {transform: translateY(-100%);}  100% {transform: translateY(0%);}}
 
 .objectgrid {
   display: flex;
   flex-wrap: wrap;
   padding-left: 300px;
-  padding-top: 70px;
+  padding-top: 31px;
   padding-right: 20px;
-  padding-bottom: 17px;
+  padding-bottom: 20px;
   z-index: -11;
+  border: 0;
+  animation: slideInFromTop  .29s, fadeIn .29s;
 }
 
 .item {
   -ms-flex: 25%;
   flex: 25%;
   max-width: 25%;
-  padding: 6px;
+  overflow: hidden;
 }
+
 
 .aboutitem {
   position: relative;
@@ -188,33 +231,47 @@ a	{
 .item img {
   vertical-align: middle;
   width: 100%;
+  text-decoration: none;
+  padding: 6px;
 }
 
+
+
+  .zoomout img {
+    width: 50%;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+      transition: all 2s ease;
+  }
+  .item img:hover {
+    border-radius: 25px;;
+  }
+
+  .item {
+    overflow: hidden;
+  }
+  
+  img {
+    transition: transform 0.25s;
+  }
 
 .portraititemsquare, .portraititemvert {
   position: relative;
   width: 50%;
-  padding-bottom: 20px;
-  padding-left: 6px;
-  padding-top: 6px;
-  padding-right: 20px;
+  padding: 10px;
 }
 
 .portraititemsquarefirst {
   position: relative;
   width: 50%;
-  padding-bottom: 20px;
-  padding-left: 6px;
-  padding-top: 6px;
-  padding-right: 20px;
+  padding: 10px;
 }
 
 .portraititem {
   position: relative;
   width: 100%;
-  padding-bottom: 20px;
-  padding-left: 6px;
-  padding-right: 20px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 900px) {
@@ -232,22 +289,9 @@ a	{
 .portraititemfirst {
   z-index: -10;
   position: relative;
-  max-width: 100%;
-  padding-bottom: 20px;
-  padding-left: 6px;
-  padding-right: 20px;
-  padding-top: 6px;
+  width: 100%;
+  padding: 10px;
 }
-
-.vertitem {
-  z-index: -10;
-  position: relative;
-    max-width: 50%;
-  padding-bottom: 20px;
-  padding-left: 6px;
-  padding-top: 6px;
-}
-
 
   @media screen and (max-height: 410px) {.footer { opacity: .9;}}
     @media screen and (max-height: 409px) {.footer { opacity: .8;}}
@@ -264,7 +308,7 @@ a	{
 
 
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 2150px) {
   .item {
     -ms-flex: 33.333%;
     flex: 33.333%;
@@ -272,7 +316,7 @@ a	{
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1350px) {
   .item {
     -ms-flex: 50%;
     flex: 50%;
@@ -280,7 +324,7 @@ a	{
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .item {
     -ms-flex: 100%;
     flex: 100%;
@@ -296,27 +340,66 @@ max-width: 100%;
 }}
 
 @media screen and (max-width: 560px) {
-  .sidetitle,.sidebio,.sidedate,.footer, .kayaramirez,.back {max-width: 50%;}
+  .sidetitle,.sidebio,.sidedate,.footer, .kayaramirez,.menubar {max-width: 50%;}
   .objectgrid, .grid {padding-left: 53.5%;}
-  .menubar {padding-left: 54.5%;}
 }
+
+.topnav a {
+  color: #6e6e5f;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.active {
+  background-color: #white;
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+}
+
+.topnav a.icon {
+  background: none;
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+
+
+@media screen and (min-width: 416px) {
+ .topnav {display: none;}
+}
+
 @media screen and (max-width: 415px) {
 
-.sidetitle,.sidebio,.sidedate,.footer {display: none;}
+.sidetitle,.sidebio,.sidedate,.footer, .menubar, .kayaramirez {display: none;}
 
 .grid, .objectgrid {
 padding-left: 10px;
 padding-right: 10px;
+padding-top: 60px;
 }
 .item {
 -ms-flex: 100%;
 flex: 100%;
-max-width: 100%; }
+max-width: 50%; }
 
 .menubar {padding-left: 173px; font-size: 14pt; padding-top: 31px;}
 
 .kayaramirez {width: 150px; font-size: 16pt; top: 33px; text-align: left; padding-left: 16px;}
-.back {display: none;}
+
 .portraititem, .portraititemfirst, .portraititemsquare, .portraititemsquarefirst, .portraititemvert {padding: 6px;}
 
 }
