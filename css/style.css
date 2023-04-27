@@ -60,15 +60,16 @@ a	{
     }
     
 .notcurrentpage {
-  opacity: .7;
+  opacity: .6;
 }
 
 .currentpage  {
-  opacity: 1;;
+  opacity: 1;
 }
 
 .mail {
   padding-left: 20px;
+  text-align: right;
 }
 .footer {
   font-family: 'Playfair Display', serif;
@@ -379,29 +380,103 @@ max-width: 100%;
 
 
 @media screen and (min-width: 416px) {
- .topnav {display: none;}
+ .border, .topnav, .mobilemenu, .mobilekaya {display: none;}
 }
 
 @media screen and (max-width: 415px) {
 
-.sidetitle,.sidebio,.sidedate,.footer, .menubar, .kayaramirez {display: none;}
+.footer,.menubar, .kayaramirez,.sidetitle,.sidedate,.sidebio {display: none;}
 
 .grid, .objectgrid {
-padding-left: 10px;
-padding-right: 10px;
-padding-top: 60px;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 100px;
 }
 .item {
 -ms-flex: 100%;
 flex: 100%;
 max-width: 50%; }
 
-.menubar {padding-left: 173px; font-size: 14pt; padding-top: 31px;}
+.mail {padding-left: 10px;}
 
-.kayaramirez {width: 150px; font-size: 16pt; top: 33px; text-align: left; padding-left: 16px;}
+.currentpage {text-decoration: underline; text-decoration-thickness: 2px;}
 
 .portraititem, .portraititemfirst, .portraititemsquare, .portraititemsquarefirst, .portraititemvert {padding: 6px;}
+.notcurrentpage, .currentpage {padding-left: 16px; padding-right: 16px;padding-bottom: 0px;}
 
 }
 
+
+
+.mobilemenu {font-family: 'Playfair Display', serif;
+  position: fixed;
+  width: 100%;
+  font-size: 16px;
+  z-index: 20;
+  line-height: 14px;
+  padding-top: 20px;
+  top: 50px;
+  background-color: white;
+padding-left: -6px;
+padding-bottom: 10px;}
+
+.mobiletitle {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  position: fixed;
+  left: 0px;
+  color: #6e6e5f;
+  text-align: left;
+  line-height: 22px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.mobiledate {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  position: fixed;
+  left: 0px;
+  color: #6e6e5f;
+  text-align: left;
+  line-height: 22px;
+  font-size: 15px;
+    }
+
+ .border {
+  border: .125px solid #6e6e5f;
+  opacity: .6;
+  z-index: 21;
+ }   
+
+ .border2 {
+  border: .125px solid #6e6e5f;
+  opacity: .6;
+  z-index: 22;
+ }   
+
+ .mobilekaya 
+ {font-family: 'Playfair Display', serif;
+  position: fixed;
+  width: 100%;
+  line-height: 14px;
+  padding-top: 30px;
+  background-color: white;
+  padding-bottom: 10px;
+  z-index: 25;
+}
+
+.mobilekayaramirez {
+  text-align: left;
+  padding-left: 16px;
+  font-size: 26px;
+  z-index: 25;
+} 
+
+.mobileitems {
+  text-align: right;
+} 
+
+.instagram {
+`}
 </style>
