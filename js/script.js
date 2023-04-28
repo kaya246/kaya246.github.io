@@ -275,7 +275,10 @@ document.getElementById("titlecard").innerHTML = "Badlands";
 document.getElementById("datecard").innerHTML = "Summer 2020";
   }
 
-
+function homein(x) {
+document.getElementById("titlecard").innerHTML = "Kaya Ramirez";
+document.getElementById("datecard").innerHTML = "Architecture";
+  }
 
 
 
