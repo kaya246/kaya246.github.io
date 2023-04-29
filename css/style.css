@@ -389,7 +389,13 @@ max-width: 100%;
  .border, .topnav, .mobilemenu, .mobilebio, .mobilekaya, .mobiledate, .mobiletitle {display: none;}
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (min-width: 428px) and (max-width: 926px) and (-webkit-device-pixel-ratio: 3) {
+  /* Mobile styles for iPhone 13 Pro Max */
+  .border, .topnav, .mobilemenu, .mobilebio, .mobilekaya, .mobiledate, .mobiletitle {display: block;}
+}
+
+@media screen and (max-width: 415px),
+       only screen and (max-device-width: 828px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
 
 .footer,.menubar, .kayaramirez,.sidebio, .sidedate, .sidetitle {display: none;}
 
