@@ -418,7 +418,7 @@ padding: 0px;}
 
 .mail {padding-left: 10px;}
 
-.currentpage {text-decoration: underline; text-decoration-thickness: 2px;}
+.currentpage {font-weight: 500;}
 .portraititem, .portraititemfirst, .portraititemsquare, .portraititemsquarefirst, .portraititemvert {padding: 0px;}
 .notcurrentpage, .currentpage {padding-left: 16px; padding-right: 16px;padding-bottom: 0px;}
 
@@ -514,6 +514,9 @@ padding-bottom: 70px;}
   z-index: 25;
 } 
 
+.burgerpic {
+  display: none;
+}
 .mobileitems {
   text-align: right;
 } 
@@ -529,9 +532,10 @@ padding-bottom: 70px;}
   line-height: 22px;
   font-size: 14px;
   font-weight: 300;
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 28px;
+  padding-bottom: 15px;
 }
 
 
