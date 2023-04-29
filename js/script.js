@@ -414,3 +414,39 @@ function ark6out(x) {document.getElementById("biocard").innerHTML =
 "A SO-IL exhibition at the Storefront for Art / Architecture. I worked alongside fellow intern Ryan Hernandez.";
 }
   
+/*
+document.addEventListener("DOMContentLoaded", function() {
+  var burger = document.getElementById("burger");
+  var mobileDate = document.querySelector(".mobiledate");
+
+  burger.addEventListener("click", function() {
+    if (mobileDate.style.display === "none") {
+      mobileDate.style.display = "block";
+    } else {
+      mobileDate.style.display = "none";
+    }
+  });
+});
+
+
+const checkbox = document.getElementById('burger');
+const mobilearch = document.querySelector('.mobilearch');
+
+checkbox.addEventListener('change', function() {
+  if (this.checked) {
+    mobilearch.style.top = '139px';
+  } else {
+    mobilearch.style.top = '39px';
+  }
+});
+
+const checkbox = document.getElementById('burger');
+const mobilephoto = document.querySelector('.mobilephoto');
+
+checkbox.addEventListener('change', function() {
+  if (this.checked) {
+    mobilephoto.style.top = '139px';
+  } else {
+    mobilephoto.style.top = '39px';
+  }
+});*/

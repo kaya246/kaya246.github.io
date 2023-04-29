@@ -396,8 +396,16 @@ max-width: 100%;
 .grid, .objectgrid {
 padding-left: 0px;
 padding-right: 0px;
-padding-top: 90px;
 }
+
+.grid {
+  padding-top: 90px;
+}
+
+.objectgrid {
+  padding-top: 40px;
+}
+
 .item {
 -ms-flex: 100%;
 flex: 100%;
@@ -411,36 +419,55 @@ padding: 0px;}
 .mail {padding-left: 10px;}
 
 .currentpage {text-decoration: underline; text-decoration-thickness: 2px;}
-.portraititem, .portraititemfirst, .portraititemsquare, .portraititemsquarefirst, .portraititemvert {padding: 6px;}
+.portraititem, .portraititemfirst, .portraititemsquare, .portraititemsquarefirst, .portraititemvert {padding: 0px;}
 .notcurrentpage, .currentpage {padding-left: 16px; padding-right: 16px;padding-bottom: 0px;}
 
 }
 
-.mobiledate {
+/* initial state of .mobiledate */
+.mobiledate, .mobilearch, .bobiledate, .mobilephoto, .mobileabout, .mobileart {
   font-family: 'Playfair Display', serif;
   font-weight: 500;
   position: fixed;
-  left: 0px;
   color: #6e6e5f;
   text-align: left;
   line-height: 22px;
-  font-size: 15px;
+  font-size: 16px;
   padding-left: 20px;
   top: 39px;
   z-index: 21;
-    }
+  display: block;
+  transition: all 0.25s ease-in-out;
+}
 
-.mobiletitle {
+
+#myMenu input[type="checkbox"]:checked ~ .mobilearch {
+  transform: translateY(147px);
+}
+
+#myMenu input[type="checkbox"]:checked ~ .mobilephoto {
+  transform: translateY(200px);
+}
+
+#myMenu input[type="checkbox"]:checked ~ .mobileart {
+  transform: translateY(253px);
+}
+
+#myMenu input[type="checkbox"]:checked ~ .mobileabout {
+  transform: translateY(306px);
+}
+
+.mobiletitle  {
   font-family: 'Playfair Display', serif;
   font-weight: 500;
   position: fixed;
   color: #6e6e5f;
   text-align: left;
   line-height: 22px;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
   padding-left: 20px;
-  top: 23px;
+  top: 20px;
   z-index: 21;
   max-width: 100%;
 }
@@ -558,14 +585,14 @@ body input + label span:first-child {
   top: 3px;
 }
 body input + label span:last-child {
-  top: 16px;
+  top: 16.5px;
 }
 body label:hover {
   cursor: pointer;
 }
 body input:checked + label span {
   opacity: 0;
-  top: 50%;
+  top: 20%;
 }
 body input:checked + label span:first-child {
   opacity: 1;
@@ -592,9 +619,8 @@ body input ~ nav {
 body input ~ nav > ul {
   text-align: left;
   position: absolute;
-  top: 35%;
-  left: 0px;
-  right: 20%;
+  top: 139px;
+  left: -35.5px;
 }
 body input ~ nav > ul > li {
   opacity: 0;

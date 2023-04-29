@@ -23,35 +23,31 @@
   
 
   <div class="menubar">
-  	<div class="currentpage">architecture</div>
-    <div><a class="notcurrentpage"href="pages/photography.html">photography</a></div>
-    <div><a class="notcurrentpage"href="pages/artacademia.html">art & academia</a></div>
+    <div class="currentpage">architecture</div>
+    <div><a class="notcurrentpage" href="pages/photography.html">photography</a></div>
+    <div><a class="notcurrentpage" href="pages/artacademia.html">art & academia</a></div>
     <div><a class="notcurrentpage" href="pages/about.html">about me</a></div>
   </div>
 
- <div onload="homein(this)" class="mobilemenu">
-	<input id="burger" type="checkbox">
-
-	<label for="burger"><span></span><span></span><span></span></label>
-
-	<nav><ul>
-	    <li><a class="notcurrentpage" href="#">photography</a></li>
-      <div class="item" onmouseover="birdin(this)" onmouseout="nineout(this)">
-        <a href="projects/bird.html">
-        <img src="arc/icon11.jpg" style="width:100%"></a>
-      </div>
-	    <li><a class="notcurrentpage" href="#">art & academia</a></li>
-	    <li><a class="notcurrentpage" href="#">about me</a></li>
-	</ul></nav> 
-
+  <div onload="homein(this)" class="mobilemenu" id="myMenu">
+    <input id="burger" type="checkbox">
+    <label for="burger"><span></span><span></span><span></span></label>
+    <nav>
+        <ul>
+           <li><a class="notcurrentpage" href="index.html">architecture</a></li>
+            <li><a class="notcurrentpage" href="pages/photography.html">photography</a></li>
+            <li><a class="notcurrentpage" href="pages/artacademia.html">art & academia</a></li>
+            <li><a class="notcurrentpage" href="pages/about.html">about me</a></li>
+        </ul>
+    </nav> 
+    <div class="mobiletitle">Kaya Ramirez</div>
+    <div class="mobilearch">architecture</div>
 </div>
 
 
 
-<div id="titlecard" class="sidetitle">Kaya Ramirez</div>
-<div id="datecard" class="sidedate">Architecture</div>
-<div class="mobiletitle">Kaya Ramirez</div>
-<div class="mobiledate">Architecture</div>
+<div id="titlecard" class="sidetitle"></div>
+<div id="datecard" class="sidedate"></div>
 
 <div class="footer">
   <a href="https://www.instagram.com/kayamr14/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> </a>
