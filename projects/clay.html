@@ -21,34 +21,51 @@
 </head>
 
 <body>
-<main>
-  <div class="menubar">
-  	<div><a class="currentpage" href="../index.html">architecture</a></div>
-    <div><a class="notcurrentpage"href="../pages/photography.html">photography</a></div>
-    <div><a class="notcurrentpage"href="../pages/artacademia.html">art & academia</a></div>
-    <div><a class="notcurrentpage" href="../pages/about.html">about me</a></div>
+  <main>
+    <div class="menubar">
+      <div><a class="currentpage" href="../index.html">architecture</a></div>
+      <div><a class="notcurrentpage"href="../pages/photography.html">photography</a></div>
+      <div><a class="notcurrentpage"href="../pages/artacademia.html">art & academia</a></div>
+      <div><a class="notcurrentpage" href="../pages/about.html">about me</a></div>
+    </div>
+  
+    <div onmouseover="homein(this)" class="mobilemenu"></div>
+  
+  <div id="titlecard" class="sidetitle">Kitchen / Stair</div>
+  <div id="datecard" class="sidedate">Prospect Heights, Brooklyn</div>
+  
+  <div onload="homein(this)" class="mobilemenu" id="myMenu">
+    <input id="burger" type="checkbox">
+    <label for="burger"><span></span><span></span><span></span></label>
+    <nav>
+        <ul>
+          <li><a class="currentpage" href="../index.html">architecture</a></li>
+            <li><a class="notcurrentpage" href="../pages/photography.html">photography</a></li>
+            <li><a class="notcurrentpage" href="../pages/artacademia.html">art & academia</a></li>
+            <li><a class="notcurrentpage" href="../pages/about.html">about me</a></li>
+            <a class="burgerpic">
+              <img src="../pages/about/malicious/d15.jpg" style="width:100%">
+            </a>
+        </ul>
+    </nav> 
+  <div class="mobiletitle">Kitchen / Stair</div>
+  <div class="mobiledate"><a href="../index.html" >Prospect Heights, Brooklyn</a></div>
   </div>
-
-
-  <div id="titlecard" class="sidetitle">
-  Colorado House
-  </div>
-
-  <div id="datecard" class="sidedate">
-  Winter 2023
-  </div>
-
-
-  <div id="biocard" class="sidebio">
-   A gut renovation in Colorado with a game room in the basement.
-  </div>
-
+  
+    <div id="biocard" class="sidebio">
+      This kitchen and stair overhaul explores the interaction between materials and movement through space. Paperstone seamlessly clads the entire space, navigating guests and residents around the circular island made of fluted walnut.
+      Design work was done under architect Idan Naor. <br> <br> Additionally, I spent two months building and installing the millwork and staircase with carpenter Jesse Lane.
+    </div>
+  
+  
   <div class="footer">
   <a href="https://www.instagram.com/kayamr14/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> </a>
   <a href="https://www.linkedin.com/in/kaya-r-1b11b8124/" class="mail"><i class="fa-regular fa-envelope" ></i> </a>
 </div><script src="https://kit.fontawesome.com/4151e8f6f1.js" crossorigin="anonymous"></script>
-    <a href="../index.html"> Kaya Ramirez</a>
-  </div>
+<div class="kayaramirez">
+  <a href="../index.html"> Kaya Ramirez</a>
+</div>
+
 
 
 
