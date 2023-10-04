@@ -717,14 +717,18 @@ hr {
 	opacity: .1;
 }
 
-.notification {
+.tooltip {
   display: none;
   position: absolute;
   background-color: #6e6e5f;
   color: #fff;
   border-radius: 4px;
   padding: 5px;
-  font-size: 12px;
+  font-size: 16px;
   top: -50px;
   right: 0%;
+}
+
+.mail:hover .tooltip {
+  display: block;
 }

@@ -418,17 +418,3 @@ function ark6out(x) {document.getElementById("biocard").innerHTML =
 "A SO-IL exhibition at the Storefront for Art / Architecture. I worked alongside fellow intern Ryan Hernandez.";
 }
   
-function copyEmail() {
-  var email = "kaya.ramirez@gmail.com";
-  var tempInput = document.createElement("input");
-  tempInput.value = email;
-  document.body.appendChild(tempInput);
-  tempInput.select();
-  document.execCommand("copy");
-  document.body.removeChild(tempInput);
-  var notification = document.getElementById("copyNotification");
-  notification.style.display = "block";
-  setTimeout(function(){
-    notification.style.display = "none";
-  }, 2000); // Hide notification after 2 seconds
-}
