@@ -214,7 +214,7 @@ document.getElementById("titlecard").innerHTML = "For the Birds";
 document.getElementById("datecard").innerHTML = "Summer 2022";
   } 
 function ausin(x) {
-document.getElementById("titlecard").innerHTML = "SoHo Office with a Fake Bathroom";
+document.getElementById("titlecard").innerHTML = "SoHo Office";
 document.getElementById("datecard").innerHTML = "Under Construction";
   }
 function gusin(x) {
@@ -231,7 +231,7 @@ document.getElementById("datecard").innerHTML = "Summer 2022";
   }  
 function clayin(x) {
 document.getElementById("titlecard").innerHTML = "Denver House";
-document.getElementById("datecard").innerHTML = "Under Construction";
+document.getElementById("datecard").innerHTML = "Summer 2023";
   }  
 function benin(x) {
 document.getElementById("titlecard").innerHTML = "Forest Hills House";
