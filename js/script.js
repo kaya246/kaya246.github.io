@@ -237,7 +237,11 @@ function benin(x) {
 document.getElementById("titlecard").innerHTML = "Forest Hills House";
 document.getElementById("datecard").innerHTML = "Under Construction";
   }  
-  
+function washin(x) {
+document.getElementById("titlecard").innerHTML = "My Bathroom";
+document.getElementById("datecard").innerHTML = "On Hold";
+  }  
+
 function unoin(x) {
 document.getElementById("titlecard").innerHTML = "Sand Dunes";
 document.getElementById("datecard").innerHTML = "Summer 2018";
