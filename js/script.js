@@ -299,6 +299,14 @@ function troisin(x) {
 document.getElementById("titlecard").innerHTML = "piano";
   }
 
+function mein(x) {
+document.getElementById("titlecard").innerHTML = "LinkedIn";
+  } 
+
+function skiin(x) {
+document.getElementById("titlecard").innerHTML = "ski";
+  }
+ 
 function troisout(x) {
 document.getElementById("titlecard").innerHTML = "me";
   }
